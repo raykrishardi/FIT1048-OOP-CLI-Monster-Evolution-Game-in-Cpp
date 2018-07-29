@@ -1,7 +1,7 @@
 # Monster Evolution Game in C++
 
 # About the project:
-This game is one of the three assignments for my FIT1048 (Foundations of C++) unit. The game is designed using object-oriented paradigm, has a command-line interface, and written using Microsoft Visual Studio 2013 IDE. The project folder also contains UML design class diagram and a reflection on my object-oriented design considerations and my justification on how well it was implemented. Below contains the game overview and rules which are directly taken from the assignment brief.
+This game is the third (last) assignment for my FIT1048 (Foundations of C++) unit. The game is designed using object-oriented paradigm, has a command-line interface, and written using Microsoft Visual Studio 2013 IDE. The project folder also contains UML design class diagram and a reflection on my object-oriented design considerations and my justification on how well it was implemented. Below contains the game overview and rules which are directly taken from the assignment brief.
 
 # Game Overview:
 You have woken up in a strange dungeon. It is full of weird monsters that you are able to catch and
