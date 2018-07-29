@@ -36,6 +36,7 @@ the player is beaten in battle the game is also over and the player loses.
 
 # Players:
 The player is represented by the following:
+
 • A name
 
 • A skill level. This is set to 6 at the start of the game.
@@ -48,6 +49,7 @@ The player is represented by the following:
 
 # Monsters:
 Monsters are represented by the following:
+
 • A type
 
 • A skill level. This is set to a random value from 1-3 at the start of the game.
@@ -58,6 +60,7 @@ Monsters are represented by the following:
 Evolved Monsters are born when 5 of one type of monster has been found and added to a players
 collection. These 5 monsters then join up (so are removed from the players collection) and create
 one evolved monster. They are represented by the following:
+
 • A type. This is the same as the base monster type.
 
 • A skill level. This is set to the sum of all skill levels from the base monsters.
@@ -69,6 +72,7 @@ monster type “Bugbear”, 2 if type “Platypie” or 3 if type “Emoo”.
 
 # “Skeletor”/Boss Monster:
 The “Skeletor” monster (the boss monster) is represented by the following:
+
 • A skill level. This is initially set to 10.
 
 • A health. This is initially set to 20.
@@ -77,6 +81,7 @@ The “Skeletor” monster (the boss monster) is represented by the following:
 
 # Finding a friendly monster:
 This describes what happens when the player finds a friendly monster:
+
 • The player must try to “catch” the monster
 
 • To catch the monster, the player generates a random number from 1 to 6. If the number is
@@ -94,6 +99,7 @@ evolved monster.
 
 # Finding an Unfriendly Monster:
 This describes what happens when the player finds an unfriendly monster:
+
 • The player must fight the unfriendly monster
 
 • To fight the monster, the player generates a random number between 1 and 6. It is added to
@@ -104,6 +110,7 @@ neither loses any health. This continues until either the player or monster runs
 
 # Finding the “Skeletor” Monster:
 This describes what happens when the player finds the “Skeletor” monster:
+
 • The player can fight the monster only if they have an Evolved Monster. If they do not have
 an evolved monster, the player is returned to their start point of the dungeon.
 
